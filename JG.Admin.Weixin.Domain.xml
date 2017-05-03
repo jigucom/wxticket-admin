@@ -1,0 +1,1888 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JG.Admin.Weixin.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Account.Enabled_Refund_Verify">
+            <summary>
+            退款单审核
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Account.Enabled_Refund">
+            <summary>
+            退款单退款
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Account.Enabled_Order_Handle">
+            <summary>
+            订单处理
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.BlackList.UserInfo">
+            <summary>
+            对应粉丝的用户信息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.UsrId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Spoint">
+            <summary>
+            出发地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.SpointLocation">
+            <summary>
+            出发地经纬度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Spointid">
+            <summary>
+            出发地的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Epoint">
+            <summary>
+            目的地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.EpointLocation">
+            <summary>
+            终点地经纬度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.EpointId">
+            <summary>
+            终点的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.BoardTime">
+            <summary>
+            发车时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Seat">
+            <summary>
+            总共的座位
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.RemainingSeat">
+            <summary>
+            剩余座位
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.Phone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolDriver.UserInfo">
+            <summary>
+            司机的用户信息
+            </summary>
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.Models.CarpoolPassenger">
+            <summary>
+            乘客拼车展示模型
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Id">
+            <summary>
+            行程id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.UsrId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Spoint">
+            <summary>
+            出发地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.SpointLocation">
+            <summary>
+            出发地经纬度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Spointid">
+            <summary>
+            出发地的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Epoint">
+            <summary>
+            目的地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.EpointLocation">
+            <summary>
+            终点地经纬度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.EpointId">
+            <summary>
+            终点的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.BoardTime">
+            <summary>
+            出发时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Phone">
+            <summary>
+            联系电话
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Num">
+            <summary>
+            乘客数量
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.CarpoolPassenger.Distance">
+            <summary>
+            距离，单位km
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.Id">
+            <summary>
+            记录id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.NickName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.Sex">
+            <summary>
+            性别 1:男 0：女
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.HeadImgUrl">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.UnionId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.CTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Member.Alias_Id">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMember.OpenId">
+            <summary>
+            微信的openid
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMember.QrcodeId">
+            <summary>
+            推广的Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMember.QrOrigin">
+            <summary>
+            推广来源
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMember.SubTime">
+            <summary>
+            关注时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMember.IsFllow">
+            <summary>
+            是否关注
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMember.UserInfo">
+            <summary>
+            对应粉丝的用户信息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSimpleUser.OpenId">
+            <summary>
+            微信的openid
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSimpleUser.UsrId">
+            <summary>
+            用户长id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSimpleUser.Nickname">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSimpleUser.RegisteredTime">
+            <summary>
+            注册时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSimpleUser.Province">
+            <summary>
+            所在省
+            </summary>
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow">
+            <summary>
+            获取列表展示模型
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.OpenId">
+            <summary>
+            微信的openid
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.QrcodeId">
+            <summary>
+            推广的Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.QrOrigin">
+            <summary>
+            推广来源
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.SubTime">
+            <summary>
+            关注时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.UsrId">
+            <summary>
+            用户长id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.Nickname">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.RegisteredTime">
+            <summary>
+            注册时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.IsFllow">
+            <summary>
+            是否关注
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.Province">
+            <summary>
+            所在省
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeMemberShow.City">
+            <summary>
+            所在城市
+            </summary>
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate">
+            <summary>
+            二维码优惠券模板
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.Id">
+            <summary>
+            对应二维码推广的Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.Money">
+            <summary>
+            优惠金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.LimitMoney">
+            <summary>
+            限制金额，即最低需满足多少元才可以使用，叠加使用优惠时会叠加限制金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.Name">
+            <summary>
+            优惠名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.EffectiveDay">
+            <summary>
+            优惠券领取后有效期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.Status">
+            <summary>
+            启用与否
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.Mtime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeRebateTemplate.IsSingle">
+            <summary>
+            是否独斥，独斥优惠的状态标志
+            </summary>
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel">
+            <summary>
+            二维码优惠券模板插入或更新的模型
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel.Id">
+            <summary>
+            对应二维码推广的Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel.Money">
+            <summary>
+            优惠金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel.LimitMoney">
+            <summary>
+            限制金额，即最低需满足多少元才可以使用，叠加使用优惠时会叠加限制金额
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel.Name">
+            <summary>
+            优惠名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel.EffectiveDay">
+            <summary>
+            优惠券领取后有效期(1天到365天)
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel.Status">
+            <summary>
+            启用与否
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.UpsertQrcodeRebateTemplateModel.IsSingle">
+            <summary>
+            是否独斥，独斥优惠的状态标志
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSubReward.QrcodeId">
+            <summary>
+            推广的Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSubReward.Id">
+            <summary>
+            微信红包订单id
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSubReward.Money">
+            <summary>
+            返利金额
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSubReward.CurrentNum">
+            <summary>
+            当前粉丝数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.QrcodeSubReward.Remark">
+            <summary>
+            红包的状况
+            </summary>
+            
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple">
+            <summary>
+            列表展示用的
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.Id">
+            <summary>
+            推广的Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.Origin">
+            <summary>
+            来源名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.Expirytime">
+            <summary>
+            为空则说明没有过期时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.ReplyMsg">
+            <summary>
+            已关注的回复消息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.SubMsg">
+            <summary>
+            首次关注回复信息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.Status">
+            <summary>
+            启用与否
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.UsrId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.OpenId">
+            <summary>
+            openid
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeSimple.IsBlockSubreward">
+            <summary>
+            是否屏蔽推广关注红包
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.Id">
+            <summary>
+            推广的Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.Origin">
+            <summary>
+            来源名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.Expirytime">
+            <summary>
+            为空则说明没有过期时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.ReplyMsg">
+            <summary>
+            已关注的回复消息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.SubMsg">
+            <summary>
+            首次关注回复信息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.Status">
+            <summary>
+            启用与否
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.UsrId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.OpenId">
+            <summary>
+            openid
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.MoneySum">
+            <summary>
+            红包金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.MemberCount">
+            <summary>
+            粉丝总数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.NotFllowNum">
+            <summary>
+            取消关注的粉丝总数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.TodayNum">
+            <summary>
+            今天关注的粉丝数量
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeShow.IsBlockSubreward">
+            <summary>
+            是否屏蔽推广关注红包
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Id">
+            <summary>
+            推广id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Origin">
+            <summary>
+            来源名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Mtime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Expirytime">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Ticket">
+            <summary>
+            微信的Ticket，主要是为了获取二维码
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Url">
+            <summary>
+            二维码的Url，好像没什么用
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.ReplyMsg">
+            <summary>
+            已关注回复消息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.SubMsg">
+            <summary>
+            首次关注回复消息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcode.IsBlockSubreward">
+            <summary>
+            是否屏蔽推广关注红包
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.Id">
+            <summary>
+            优惠Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.UsrId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.TypeId">
+            <summary>
+            类型Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.Money">
+            <summary>
+            优惠金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.LimitMoney">
+            <summary>
+            限制金额，即最低需满足多少元才可以使用，叠加使用优惠时会叠加限制金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.IsUse">
+            <summary>
+            是否使用
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.Name">
+            <summary>
+            优惠名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.StartDate">
+            <summary>
+            开始日期，只算日期，不精确到分秒
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.EndDate">
+            <summary>
+            结束日期，只算日期，不精确到分秒
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.TransportRebate.IsSingle">
+            <summary>
+            是否独斥，独斥优惠的状态标志，可以不显示
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Steward_Info.Mobile">
+            <summary>
+            唯一约束
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Transport_Company.Name">
+            <summary>
+            运输公司名
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Transport_Company.WicketMobile">
+            <summary>
+            咨询电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Transport_Company.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Transport_Company.AccountId">
+            <summary>
+            管理帐号id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Id">
+            <summary>
+            退款订单号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.OrderId">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.TransactionId">
+            <summary>
+            微信交易号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Refundfee">
+            <summary>
+            申请退款的金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Status">
+            <summary>
+            0.审核不通过
+            1.待审核
+            2.审核通过
+            3.已退款
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Remark">
+            <summary>
+            申请理由
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Reply">
+            <summary>
+            回复，如审核不通过的原因
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Alias_Id">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.NickName">
+            <summary>
+            微信用户名
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.StartCity">
+            <summary>
+            发车城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Start_City_Id">
+            <summary>
+            发车城市id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.TargetCity">
+            <summary>
+            目的城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Across_City_Id">
+            <summary>
+            目标城市id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.StartPoint">
+            <summary>
+            上车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.EndPoint">
+            <summary>
+            下车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.LinkManId">
+            <summary>
+            联系手机
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.Is_Sold_Fail">
+            <summary>
+            是否订票失败 1为订单失败 0为申请退款
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.TotalPrice">
+            <summary>
+            总金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.View_Admin_Refund.WxRefundId">
+            <summary>
+            微信退款单号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.WhiteList.UserInfo">
+            <summary>
+            对应粉丝的用户信息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.WxBrokerage.Id">
+            <summary>
+            订单id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.WxBrokerage.Percentage">
+            <summary>
+            百分比
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.WxBrokerage.HasRefund">
+            <summary>
+            是否有退款
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.WxBrokerage.Status">
+            <summary>
+            订单是否取消
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.WxBrokerage.Money">
+            <summary>
+            可获取佣金
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.WxBrokerage.ExpiredTime">
+            <summary>
+            订单过期时间（即上车时间）
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Openid">
+            <summary>
+            用户的唯一标识
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Id">
+            <summary>
+            数据库里面的ID
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Nickname">
+            <summary>
+            用户昵称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Sex">
+            <summary>
+            用户的性别，值为1时是男性，值为2时是女性，值为0时是未知
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Province">
+            <summary>
+            用户个人资料填写的省份
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.City">
+            <summary>
+            普通用户个人资料填写的城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Country">
+            <summary>
+            国家，如中国为CN
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Headimgurl">
+            <summary>
+            用户头像，最后一个数值代表正方形头像大小（有0、46、64、96、132数值可选，0代表640*640正方形头像），用户没有头像时该项为空
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Privilege">
+            <summary>
+            用户特权信息，json 数组，如微信沃卡用户为（chinaunicom）
+            作者注：其实这个格式称不上JSON，只是个单纯数组。
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Unionid" -->
+        <member name="P:JG.Admin.Weixin.Domain.Models.Wx_Userinfo.Alias_Id">
+            <summary>
+            展示的id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.SpreadQrcodeUser.Id">
+            <summary>
+            数据库里面的ID
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.HeadimgUser.Id">
+            <summary>
+            数据库里面的ID
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.HeadimgUser.Nickname">
+            <summary>
+            用户昵称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.HeadimgUser.Headimgurl">
+            <summary>
+            用户头像
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Models.HeadimgUser.Sex">
+            <summary>
+            用户的性别，值为1时是男性，值为2时是女性，值为0时是未知
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.UsrId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Spoint">
+            <summary>
+            出发地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Spointid">
+            <summary>
+            出发地的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Epoint">
+            <summary>
+            目的地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.EpointId">
+            <summary>
+            终点的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.BoardTime">
+            <summary>
+            发车时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Seat">
+            <summary>
+            总共的座位
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.RemainingSeat">
+            <summary>
+            剩余座位
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.Phone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolDriverShow.UserInfo">
+            <summary>
+            司机的用户信息
+            </summary>
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.CarpoolPassengerShow">
+            <summary>
+            乘客拼车展示模型
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Id">
+            <summary>
+            行程id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.UsrId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Spoint">
+            <summary>
+            出发地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Spointid">
+            <summary>
+            出发地的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Epoint">
+            <summary>
+            目的地名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.EpointId">
+            <summary>
+            终点的高德Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.BoardTime">
+            <summary>
+            出发时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Ctime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Phone">
+            <summary>
+            联系电话
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.CarpoolPassengerShow.Num">
+            <summary>
+            乘客数量
+            </summary>
+            
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.RebateCodeTemplate">
+            <summary>
+            优惠码模板
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.Code">
+            <summary>
+            优惠码
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.Money">
+            <summary>
+            优惠金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.LimitMoney">
+            <summary>
+            限制金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.Name">
+            <summary>
+            优惠名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.StartDate">
+            <summary>
+            开始日期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.EndDate">
+            <summary>
+            结束日期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.IsSingle">
+            <summary>
+            是否独斥
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.Status">
+            <summary>
+            1为启用状态,0为废弃状态
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplate.LimitTime">
+            <summary>
+            领取限制次数
+            </summary>
+        </member>
+        <member name="M:JG.Admin.Weixin.Domain.RebateCodeTemplate.Initialized">
+            <summary>
+            模型初始化，对状态处理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:JG.Admin.Weixin.Domain.RebateCodeTemplateShow">
+            <summary>
+            优惠码模板列表的展示模型
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.Code">
+            <summary>
+            优惠码
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.Money">
+            <summary>
+            优惠金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.LimitMoney">
+            <summary>
+            限制金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.Name">
+            <summary>
+            优惠名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.StartDate">
+            <summary>
+            开始日期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.EndDate">
+            <summary>
+            结束日期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.IsSingle">
+            <summary>
+            是否独斥
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.Status">
+            <summary>
+            1为启用状态,0为废弃状态
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.LimitTime">
+            <summary>
+            领取限制次数
+            </summary>
+        </member>
+        <member name="M:JG.Admin.Weixin.Domain.RebateCodeTemplateShow.Initialized">
+            <summary>
+            模型初始化，对状态处理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.Id">
+            <summary>
+            退款订单号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.OrderId">
+            <summary>
+            订单号
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.TransactionId">
+             <summary>
+             微信交易号
+             </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.Refundfee">
+            <summary>
+            退回的金额
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.Status">
+            <summary>
+            0.审核不通过
+            1.待审核
+            2.审核通过
+            3.已退款
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.DIds">
+            <summary>
+            订单详情的id，不需要在后台展示
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.Remark">
+            <summary>
+            申请理由
+            </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Transport_Order_Refund.Reply">
+             <summary>
+             回复，如审核不通过的原因
+             </summary>
+            
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.AccountTable.GroupName">
+            <summary>
+            角色分组名称
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.AccountTable.IsMerChant">
+            <summary>
+            是否为商家帐号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.AccountTable.CompanyId">
+            <summary>
+            运输公司id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.AccountTable.CompanyName">
+            <summary>
+            运输公司
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.AccountTable.IsAdmin">
+            <summary>
+            是否为管理员
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Line.SCity">
+            <summary>
+            出发城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Line.ECity">
+            <summary>
+            目的城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.Line.Area">
+            <summary>
+            区域
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.EndPointTable.Line">
+            <summary>
+            班次
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.EndPointTable.Place">
+            <summary>
+            下车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.EndPointTable.Price">
+            <summary>
+            车票价格
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.EndPointTable.Status">
+            <summary>
+            是否启用下车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.EndPointTable.Sort">
+            <summary>
+            到达顺序
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineAndCo.CompanyName">
+            <summary>
+            运输公司
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineAndCo.BizCardCity">
+            <summary>
+            名片城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinePlanView.WorkDate">
+            <summary>
+            工作日期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinePlanView.TicketNum">
+            <summary>
+            全部票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinePlanView.RemainingNum">
+            <summary>
+            剩余票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinePlanView.SoldNum">
+            <summary>
+            已售票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinePlanView.IncreMoney">
+            <summary>
+            涨幅
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanView.TicketNum">
+            <summary>
+            全部票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanView.RemainingNum">
+            <summary>
+            剩余票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanView.SoldNum">
+            <summary>
+            已售票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanView.IncreMoney">
+            <summary>
+            涨幅
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanView.Route">
+            <summary>
+            高速线路
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanView.CoName">
+            <summary>
+            运输公司
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.Id">
+            <summary>
+            班次id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.SCity">
+            <summary>
+            出发城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.ECity">
+            <summary>
+            到达城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.ShiftNum">
+            <summary>
+            班次编号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.Route">
+            <summary>
+            高速线路
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.Status">
+            <summary>
+            是否开启
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.Plans">
+            <summary>
+            运行计划
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.SCityId">
+            <summary>
+            城市id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.ECityId">
+            <summary>
+            目标城市id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.RouteId">
+            <summary>
+            高速线路id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.Area">
+            <summary>
+            区域
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.CoId">
+            <summary>
+            运输公司id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.CarMobile">
+            <summary>
+            随车电话 多个电话用“,”分隔
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.AutoIncre">
+            <summary>
+            自动增长
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.FinalCityId">
+            <summary>
+            行车城市id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LinesView.FinalCity">
+            <summary>
+            行车城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.StartCity">
+            <summary>
+            出发城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.AcrossCity">
+            <summary>
+            途径城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.CarMobile">
+            <summary>
+            随车电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.WicketMobile">
+            <summary>
+            票窗电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.CoName">
+            <summary>
+            运输公司
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.CompanyId">
+            <summary>
+            运输公司id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.ShiftNum">
+            <summary>
+            班次
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.Route">
+            <summary>
+            高速路线
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.StartPoint">
+            <summary>
+            上车点集合
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.EndPoint">
+            <summary>
+            下车点集合
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.FinalCityId">
+            <summary>
+            行车城市id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineTable.FinalCity">
+            <summary>
+            行车城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.Id">
+            <summary>
+            班次id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.ShiftNum">
+            <summary>
+            班次编号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.CoName">
+            <summary>
+            运输公司
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.CarMobile">
+            <summary>
+            随车电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.Route">
+            <summary>
+            高速线路
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.WicketMobile">
+            <summary>
+            票窗电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.Area">
+            <summary>
+            城市区域
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.Address">
+            <summary>
+            票窗地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.LineView.AutoExcecution">
+            <summary>
+            自动执行
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.BrokerageView.Id">
+            <summary>
+            订单id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.BrokerageView.HasRefund">
+            <summary>
+            1 有退款
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.BrokerageView.Money">
+            <summary>
+            佣金
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.BrokerageView.Nick">
+            <summary>
+            购票人
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.BrokerageView.BeNick">
+            <summary>
+            获利人
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.BrokerageView.AliasId">
+            <summary>
+            购票人id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.BrokerageView.BeAliasId">
+            <summary>
+            获利人id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Line">
+            <summary>
+            班次
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.UsrName">
+            <summary>
+            微信用户名
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.StartPoint">
+            <summary>
+            上车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Date">
+            <summary>
+            上车日期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.BoardTime">
+            <summary>
+            上车时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Price">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.EndPoint">
+            <summary>
+            下车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Mobile">
+            <summary>
+            联系手机号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Passengers">
+            <summary>
+            乘客（可能为多名乘客）
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.IsInsurance">
+            <summary>
+            是否购买保险
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.IsArrive">
+            <summary>
+            是否到达
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.IsPay">
+            <summary>
+            是否支付
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Status">
+            <summary>
+            是否取消订单
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.CTime">
+            <summary>
+            订单创建时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Num">
+            <summary>
+            票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.TotalPrice">
+            <summary>
+            总金额
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.ScheduleId">
+            <summary>
+            时刻id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.PlanId">
+            <summary>
+            运行计划id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.LineId">
+            <summary>
+            线路id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.StewardName">
+            <summary>
+            乘务员姓名
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.StewardMobile">
+            <summary>
+            乘务员手机号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.RebateInfo">
+            <summary>
+            优惠信息
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.AliasId">
+            <summary>
+            交流用Id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.StartAddress">
+            <summary>
+            乘车地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.CoName">
+            <summary>
+            运输公司
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.TicketMobile">
+            <summary>
+            随车电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.JourneyRmk">
+            <summary>
+            行程备注
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.OrderTable.UsrId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PassengerInfo.Status">
+            <summary>
+            已退款或待使用
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PassengerInfo.Seat">
+            <summary>
+            座位号
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlaceTable.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlaceTable.Lng">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlaceTable.Address">
+            <summary>
+            详细地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.Line">
+            <summary>
+            线路
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.WorkDate">
+            <summary>
+            工作日期
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.TicketNum">
+            <summary>
+            全部票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.RemainingNum">
+            <summary>
+            剩余票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.SoldNum">
+            <summary>
+            已售票数
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.StartCity">
+            <summary>
+            出发城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.TargetCity">
+            <summary>
+            到达城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.IncreMoney">
+            <summary>
+            涨幅
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.Route">
+            <summary>
+            高速线路
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.PlanTable.CoName">
+            <summary>
+            运输公司
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RealPlaceTable.Lat">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RealPlaceTable.Lng">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.RealPlaceTable.Address">
+            <summary>
+            详细地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.SCity">
+            <summary>
+            开始城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.ECity">
+            <summary>
+            目的城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.CartCity">
+            <summary>
+            名片城市
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.Address">
+            <summary>
+            票窗地址
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.CarMobile">
+            <summary>
+            随车电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.WicketMobile">
+            <summary>
+            票窗电话
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.IncreMoney">
+            <summary>
+            涨幅
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.StartSchedules">
+            <summary>
+            出发地
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.ScheduleContainer.EndSchedules">
+            <summary>
+            到达地
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.SPoint.BoardTime">
+            <summary>
+            上车时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.EPoint.Price">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.EPoint.Sort">
+            <summary>
+            下车点顺序
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.StartPointTable.Line">
+            <summary>
+            班次
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.StartPointTable.Place">
+            <summary>
+            上车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.StartPointTable.BoardTime">
+            <summary>
+            上传时间
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.StartPointTable.Status">
+            <summary>
+            是否启用上车点
+            </summary>
+        </member>
+        <member name="P:JG.Admin.Weixin.Domain.StLineView.StLineId">
+            <summary>
+            乘务员线路表记录id
+            </summary>
+        </member>
+    </members>
+</doc>
