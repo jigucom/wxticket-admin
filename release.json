@@ -1,0 +1,43 @@
+﻿{
+  "JwtIssuerOptions": {
+    "Issuer": "SuperAwesomeTokenServer",
+    "Audience": "https://tkadmin.samecity.com.cn/",
+    "SecretKey": "7WIodbSWFnlpG3tLrQ_hgfviwoiX9!" //"Audience": "http://localhost:1783/"
+  },
+  "AppStrings": {
+    "Redis": "172.10.0.110:6379",
+    "Postgresql2": "Server=172.10.0.100;Database=wechat;User Id=wechat;Password=nr3QzspJOXhzoPMS;"
+  },
+  "WeixinSetting": {
+    "AppId": "wx4fe024a0631d26a8",
+    "AppSecret": "5258e2b3d49509b7909b87088cfee228",
+    "DefaultRedirectUrl": "https://ticket.samecity.com.cn/wx/ticket.html",
+    "HostName": "http://ticket.samecity.com.cn"
+  },
+  "MINASetting": {
+    "AppId": "",
+    "AppSecret": ""
+  },
+  "MchSetting": {
+    "CertPath": "apiclient_cert.p12",
+    "Key": "qHiJilicCLcFisZQNWfl8P5N8YvCTSOH",
+    "MchId": "1306712001",
+    "Notify": "https://ticket.samecity.com.cn/api/Order/Notify",
+    "Password": "1306712001"
+  },
+   "RawRabbit": {
+    "Username": "user",
+    "Password": "CZNdXXmR",
+    "VirtualHost": "/",
+    "Port": 5672,
+    "Hostnames": [ "172.10.0.103" ],
+    "RequestTimeout": "00:00:10",
+    "PublishConfirmTimeout": "00:00:01",
+    "RecoveryInterval": "00:00:10",
+    "PersistentDeliveryMode": true,
+    "AutoCloseConnection": true,
+    "AutomaticRecovery": true,
+    "TopologyRecovery": true
+  }
+
+}
